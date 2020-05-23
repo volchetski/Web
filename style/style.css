@@ -1,0 +1,107 @@
+﻿header{
+  bodrer: 0;
+  height: 20%;
+  width: 100%;
+}
+
+.headerImg{
+  height: 90%;
+  width: 100%;
+}
+
+article{
+  background-color: lavander;
+  width: 100%;
+  height: auto;
+}
+
+.buttonBox{
+  text-align: center;
+}
+
+.informationBox{
+  width: 90%;
+  height: auto;
+  text-align: center;
+}
+
+.avatar{
+  padding-top: 1%;
+  padding-left: 5%;
+  padding-bottom: 0%;
+  width: 100%;
+  height: 50%;
+}
+
+.myAvatar{
+width: 20%;
+height: 70%;
+border-radius: 40%;
+}
+
+.titleOfMe{
+  text-align: center;
+  width: auto;
+  height: auto;
+}
+
+/* Кнопки */
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #ADFF2F;
+  border: none;
+  color: #FF4500;
+  text-align: left;
+  font-size: 100%;
+  padding: 1%;
+  width: 10%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+footer{
+  background-color: lavander;
+  height: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.contacts{
+  font-family: cursive;
+}
+
+.FB{
+  width: 40px;
+  height: 40px;
+}
+.vk{
+  width: 40px;
+  height: 40px;
+}
